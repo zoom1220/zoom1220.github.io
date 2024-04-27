@@ -121,7 +121,7 @@ a:visited{
     padding: 0;
     margin: 0;
     box-sizing: 0;
-    padding-left: 10px;
+    left: 10px;
 }
 .contact-container{
     height: 100vh;
@@ -175,6 +175,6 @@ a:visited{
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg, #78F5AF, #049745);
+    background-color:#78F5AF;
     cursor: pointer;
 }
