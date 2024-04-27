@@ -106,4 +106,12 @@
     font-style: italic;
   }
   
-body { background-color: #33475b; }
+body { 
+    background-color: #33475b; 
+}
+a:link {
+    color: #0389c7;
+}
+a:visited{
+    color: #9C33FF;
+}
