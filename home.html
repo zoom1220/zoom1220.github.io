@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head style="background-color:#33475b">
+<html lang="en">
+<head style="background-color:#4b9541">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/zoomsstyle.css">
     <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/media/GMJO8iJXwAExkqm?format=jpg&name=medium">
     <title>Zooms</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,25 +59,45 @@
 
 <body><!-- Provide a short description of the page. -->
 
+<div class="header">
+  <a href="#default" class="logo">:D</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function navBarFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <h1>WELCOME ZOOMERS</h1>
-<p>welcome to my website. it is me. zooms. the guy.</p>
-<p>ima keep updating this site for a while. what sort of things should i add?</p>
-<br>
-<p>look at my social medias: 
-    <br>Youtube: <a href="https://www.youtube.com/@Zooms">@zooms</a>, <a href="https://www.youtube.com/@Zooms2">@zooms2</a>
-    <br>Twitch: <a href="https://www.twitch.tv/Zooms">zooms</a>
-    <br>Twitter: <a href="https://www.twitter.com/_zooms">@_zooms</a>, <a href="https://www.twitter.com/zoomsxd">@zoomsxd</a>
-    <br>Discord: <a href="https://www.discord.gg/gY2jW2s">gY2jW2s</a> <br><br>
-</p>
-<h2>my wonderful collection of creatures</h2>
+<p>welcome to my website. it is me. zooms. the guy.</p><br>
+<img id="zoomspfp" src="https://pbs.twimg.com/media/FSlIOg_UUAAUyWy?format=jpg&name=900x900" alt="zooms">
+<div class="socials">
+    <p class="socials">
+	Youtube: <a href="https://www.youtube.com/@Zooms">@zooms</a>, <a href="https://www.youtube.com/@Zooms2">@zooms2</a></p>
+    <p class="socials">
+	Twitch: <a href="https://www.twitch.tv/Zooms">zooms</a></p>
+    <p class="socials">
+	Twitter: <a href="https://www.twitter.com/_zooms">@_zooms</a>, <a href="https://www.twitter.com/zoomsxd">@zoomsxd</a></p>
+	<p class="socials">
+	BlueSky: <a href="https://bsky.app/profile/zooms.me">zooms.me</a></p>
+    <p class="socials">
+	Discord: <a href="https://www.discord.gg/gY2jW2s">the zoomers</a> <br><br>
+	</p>
+</div>
+<h2>my wonderful creatures</h2>
 <img src="https://pbs.twimg.com/media/GKbYj_cbcAA9Lvm?format=jpg&name=medium" alt="the guy" width="250">
 <p>my wonderful son</p>
-<img src="/assets/AAAAAAAAAAAAAAAAAAAAAAAAAAGH.png" alt="user @livphobia" height="50"> <img src="https://pbs.twimg.com/media/GMJZMwOWcAIvuLL?format=png&name=small" 
-alt="user @zyzzyva1711" height="50"> <img src="assets/dancing-spiderman.gif" alt="request from temprist" height="100"> 
-<img src="assets/GMRd4zCWAAAvbn9.jpg" height="100" alt="">
-<img src="assets/Screenshot_5814.png" height="100" alt="">
-<img src="assets/IMG_0485.jpg" height="100" alt="">
-<img src="assets/latest.png" height="100" alt="">
+
 
 <class="contact-container">
     <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" style="position:relative; left:10px">
@@ -91,7 +111,6 @@ alt="user @zyzzyva1711" height="50"> <img src="assets/dancing-spiderman.gif" alt
         <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
         <button type="submit">Submit</button>
     </form>
-
 </class>
 </body>
 </html>
